@@ -2,15 +2,9 @@
 
 **Step 1.** First you need to create an account with GITHUB. 
         
-        **GITHUB is a version control system that keeps track of changes to a source code and allows multiple people to work on it at the same time.**
-
 **Step 2.** After you create a GITHUB account, you should create a Webstorm account and download the program. 
         
-        **Webstorm is a Javascript integrated development environment (IDE) that can connect to your GITHUB account.**
-
 **Step 3.** After downloading and installing Webstorm, you must install GIT as a local program. 
-        
-        **GIT is a version control software that keeps track of the changes to source code.**
       
 **Step 4.** Next we are going to connect GITHUB with Webstorm.
         Press (ctrl+alt+shift) for system preferences and navigate to Version Control.
@@ -33,23 +27,29 @@
         (After editing the file, you may add the file to GIT. This adds it to the local file system.)
         
 **Step 8.** The next step is to commit your changes.
-        
-        **A commit is a record of change for yourself and your collaborators to see when looking for changes to the file.**
-        
+                
 **Step 9.** When doing a project in Webstorm, the project is not automatically saved or uploaded to GITHUB.
         In order to get your project uploaded to GITHUB, you have to push the project with VCS -> GIT -> Push.
-        
-        **A push is a sending of your project to a remote repository (i.e. GITHUB).**
-        
-        **Likewise, A pull is the requesting of a project from a remote repository.**
         
 **Step 10.** Congrats! Your file is now on GITHUB! 
          You may change the repository name and tinker with the settings.
          When choosing the GITHUB page location, select "Master Branch".
          
-         **A branch is used to isolate development work without affecting other parts of the repository.**
+**Definitions**
 
-**More Useful Definitions**
+    **GIT is a version control software that keeps track of the changes to source code.**     
+   
+    **Webstorm is a Javascript integrated development environment (IDE) that can connect to your GITHUB account.**
+
+    **GITHUB is a version control system that keeps track of changes to a source code and allows multiple people to work on it at the same time.**
+
+    **A commit is a record of change for yourself and your collaborators to see when looking for changes to the file.**
+
+    **A push is a sending of your project to a remote repository (i.e. GITHUB).**
+        
+    **Likewise, A pull is the requesting of a project from a remote repository.**
+    
+    **A branch is used to isolate development work without affecting other parts of the repository.**
 
     **The "clone" command downloads an existing GITHUB repository onto your local computer.**
 
@@ -61,6 +61,7 @@
 
     **A "remote" is a common repository in GITHUB that all team members if a project use in order to exchange changes.**
     
+
 Sources:
 
 https://www.git-tower.com/learn/git/glossary/remote
